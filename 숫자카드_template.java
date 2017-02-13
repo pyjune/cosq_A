@@ -19,9 +19,9 @@ public class Solution {
 			for(int i = 0; i<N; i++)
 			{
 				num = card.charAt(i) - '0';
-				count[num]++;
+	
 			}
-      // User Code...
+  
 	
 		}
 	}
