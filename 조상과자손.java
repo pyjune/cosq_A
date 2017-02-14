@@ -30,7 +30,7 @@ public class Solution {
 				// 자식을 인덱스로 부모를 저장
 				par[n2] = n1;
 			}
-			DLR(N); // root가 1이고 1번부터 순회하는 경우..
+			DLR(N); //
 			cnt--; // N번 노드는 제외..
 			int r = search(N);
 			System.out.println("#"+tc+" "+r+" "+cnt);
