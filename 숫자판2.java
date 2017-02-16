@@ -65,6 +65,7 @@ public class Solution {
 							return 1;
 				}
 			}
+			used[r][c] = 1;
 			return 0;
 		}
 	}
